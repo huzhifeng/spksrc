@@ -1,0 +1,19 @@
+diff -Nurp autossh-1.4e.orig/config.h.in autossh-1.4e/config.h.in
+--- autossh-1.4e.orig/config.h.in	2015-02-10 12:41:58.000000000 +0800
++++ autossh-1.4e/config.h.in	2017-05-21 16:51:53.635456663 +0800
+@@ -212,15 +212,9 @@
+ #undef inline
+ #endif
+ 
+-/* Define to rpl_malloc if the replacement function should be used. */
+-#undef malloc
+-
+ /* Define to `int' if <sys/types.h> does not define. */
+ #undef pid_t
+ 
+-/* Define to rpl_realloc if the replacement function should be used. */
+-#undef realloc
+-
+ /* Define to `unsigned' if <sys/types.h> does not define. */
+ #undef size_t
+ 

@@ -1,0 +1,53 @@
+[{
+    "step_title": "Basic configuration",
+    "items": [{
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_username",
+            "desc": "Username",
+            "defaultValue": "root"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_remote_host",
+            "desc": "Remote server",
+            "defaultValue": "example.com"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_remote_port",
+            "desc": "Remote SSH service port",
+            "defaultValue": "8224"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_local_port",
+            "desc": "Local SSH service port",
+            "defaultValue": "22"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_identity_file",
+            "desc": "Identity file",
+            "defaultValue": "/root/.ssh/id_rsa"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_monitor_port",
+            "desc": "Monitor port",
+            "defaultValue": "8324"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_extra_opts",
+            "desc": "Extra options for SSH",
+            "defaultValue": ""
+        }]
+    }]
+}]

@@ -1,0 +1,53 @@
+[{
+    "step_title": "基本设置",
+    "items": [{
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_username",
+            "desc": "用户名",
+            "defaultValue": "root"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_remote_host",
+            "desc": "远程服务器",
+            "defaultValue": "example.com"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_remote_port",
+            "desc": "远程 SSH 服务端口",
+            "defaultValue": "8224"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_local_port",
+            "desc": "本地 SSH 服务端口",
+            "defaultValue": "22"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_identity_file",
+            "desc": "身份认证文件",
+            "defaultValue": "/root/.ssh/id_rsa"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_monitor_port",
+            "desc": "监控端口",
+            "defaultValue": "8324"
+        }]
+    }, {
+        "type": "textfield",
+        "subitems": [{
+            "key": "wizard_extra_opts",
+            "desc": "SSH 扩展选项",
+            "defaultValue": ""
+        }]
+    }]
+}]
